@@ -83,27 +83,27 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="Nom">
+							Nom :
+						</label><br/>
+						<input type="text" name="Nom" id="name" placeholder="Ex : Bernard" size="52" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="Adresse email">
+							Adresse email:
+						</label><br/>
+						<input type="email" id="email" placeholder="Ex : Bernard@openclassroom.com" size="52" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="connu">
 							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						</label><br/>
+						<textarea name="connu" placeholder="Ex: Réseaux sociaux; famille; Internet; etc..." class="form-control" rows="4" cols="50" required id="input_504"></textarea>
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							Brief de votre projet :<br>
+						</label><textarea id="message" placeholder="Ajoutez autant de détails que nécessaire" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer

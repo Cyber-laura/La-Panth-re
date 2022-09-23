@@ -46,12 +46,13 @@ a:hover {
     padding-right: 0;
 }
 
+
 .bloc-lg {
     padding: 100px 50px;
 }
 
 .bloc-md {
-    padding: 50px;
+    padding: 20px;
 }
 
 .bloc-sm {
@@ -509,6 +510,9 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+.form-group{
+    padding-bottom: 10px;
+}
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -777,6 +781,9 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #893A15;
+}
+.col-sm-12{
+    text-align: center;
 }
 
 .tc-white {
