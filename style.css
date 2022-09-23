@@ -11,6 +11,8 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
+    padding:10px 15px;
 }
 
 a:hover {
@@ -53,7 +55,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 35px 50px;
 }
 
 .bg-center,
@@ -290,6 +292,7 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    position:relative;
 }
 
 .navbar-brand {
@@ -326,6 +329,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    display: block;
+    margin-left:15px
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -771,15 +776,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #893A15;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #893A15;
     color: #FFFFFF!important;
 }
 
