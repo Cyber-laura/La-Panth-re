@@ -1048,3 +1048,6 @@ h4 {
         text-align: center;
     }
 }
+*:focus{
+    border: red dashed 1px!important;   
+}
