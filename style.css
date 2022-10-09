@@ -85,21 +85,6 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.webp");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -289,6 +274,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background-color:rgb(137, 58, 21);
 }
 
 .navbar {
@@ -765,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(137, 58, 21);
     padding: 40px 40px 40px 40px;
 }
 
@@ -826,10 +812,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -840,6 +822,26 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-arriere-plan-de-presentation.webp");
+}
+.col-sm-6{
+    background-color: #FFFFFF;
+}
+.background1{
+    background-color:white;
+}
+.size{
+    width: 30%;
+    background-color: #893A15;
+    margin-left: auto;
+    margin-right: auto;
+}
+.size2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.padding-b{
+    padding-bottom: 22px;
 }
 
 @media (max-width: 1024px) {
